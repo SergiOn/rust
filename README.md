@@ -105,4 +105,9 @@ cargo
 rustc hello.rs
 ./hello
 ```
+```bash
+cargo build
+cargo run
+cargo new hello_world --bin
+```
 
