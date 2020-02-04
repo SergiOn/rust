@@ -101,3 +101,8 @@ rustup
 cargo
 ```
 
+```bash
+rustc hello.rs
+./hello
+```
+
