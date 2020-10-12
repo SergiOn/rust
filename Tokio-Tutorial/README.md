@@ -23,7 +23,13 @@ https://crates.io
 ```bash
 rustc --version
 cargo install mini-redis
+```
+```bash
 mini-redis-server
 mini-redis-cli get foo
+```
+```bash
+cargo new my-redis
+cd my-redis
 ```
 
