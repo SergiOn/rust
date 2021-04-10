@@ -1,4 +1,4 @@
-# Rust
+# Rust courses
 
 ## The Rust Programming Language
 
@@ -109,4 +109,13 @@ cargo build
 cargo run
 cargo new hello_world --bin
 ```
+
+
+## Network Programming with Rust
+
+https://www.udemy.com/course/draft/1842780/learn/lecture/11319368
+
+#### About
+
+Build fast and resilient network servers and clients by leveraging Rust's memory-safety and concurrency features
 
