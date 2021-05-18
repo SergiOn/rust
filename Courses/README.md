@@ -119,3 +119,16 @@ https://www.udemy.com/course/draft/1842780/learn/lecture/11319368
 
 Build fast and resilient network servers and clients by leveraging Rust's memory-safety and concurrency features
 
+
+## Learn Rust by Building Real Applications
+
+https://www.udemy.com/course/rust-fundamentals
+
+#### About
+
+Fundamentals of the Rust Programming Language
+
+#### Links
+
+https://github.com/gavadinov/Learn-Rust-by-Building-Real-Applications
+
