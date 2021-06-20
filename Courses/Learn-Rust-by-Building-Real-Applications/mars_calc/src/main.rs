@@ -1,7 +1,13 @@
 use std::io;
 
 fn main() {
+    let a = 5;
+    let b = a;
+    println!("{}", a);
+    println!("{}", b);
+
     let mut input = String::new();
+    // let mut s = input;
     io::stdin().read_line(&mut input);
 
     println!("Hello, world!");
