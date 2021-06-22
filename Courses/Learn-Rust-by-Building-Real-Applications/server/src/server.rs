@@ -1,4 +1,5 @@
-use std::net::TcpListener;
+use std::net::{TcpListener, SocketAddr, TcpStream};
+use std::io::Error;
 
 pub struct Server {
     addr: String,
@@ -24,7 +25,20 @@ impl Server {
         let listener = TcpListener::bind(&self.addr).unwrap();
 
         loop {
-            listener.accept();
+            match listener.accept() {
+                Ok((tcpStream, socketAddr)) => {
+                    println!("OK");
+                }
+                Err(e) => println!("Failed to establish a connection: {}", e)
+            }
+
+            // let res = listener.accept();
+            //
+            // if res.is_err() {
+            //     continue;
+            // }
+            //
+            // let (tcpStream, socketAddr) = res.unwrap();
         }
     }
 }
