@@ -28,7 +28,7 @@ impl Server {
 
         loop {
             match listener.accept() {
-                Ok((mut tcp_stream, socket_addr)) => {
+                Ok((mut tcp_stream, _socket_addr)) => {
                     let mut buffer = [0; 1024];
                     match tcp_stream.read(&mut buffer) {
                         Ok(_) => {
