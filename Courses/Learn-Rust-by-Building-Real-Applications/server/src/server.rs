@@ -1,7 +1,6 @@
-use std::net::{TcpListener, SocketAddr, TcpStream};
-use std::convert::{TryFrom, TryInto};
+use std::net::TcpListener;
+use std::convert::TryFrom;
 use std::io::Read;
-use std::io::Error;
 use crate::http::Request;
 
 pub struct Server {
@@ -29,9 +28,9 @@ impl Server {
 
         loop {
             match listener.accept() {
-                Ok((mut tcpStream, socketAddr)) => {
+                Ok((mut tcp_stream, socket_addr)) => {
                     let mut buffer = [0; 1024];
-                    match tcpStream.read(&mut buffer) {
+                    match tcp_stream.read(&mut buffer) {
                         Ok(_) => {
                             println!("Received a request: {}", String::from_utf8_lossy(&buffer));
 
