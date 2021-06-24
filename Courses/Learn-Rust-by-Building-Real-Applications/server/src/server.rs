@@ -39,7 +39,7 @@ impl Server {
                             // let result: &Result<Request, _> = &buffer.try_into();
 
                             match Request::try_from(&buffer[..]) {
-                                Ok(request) => {}
+                                Ok(_request) => {}
                                 Err(e) => println!("Failed to parse a request: {}", e)
                             }
                         }
