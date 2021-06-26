@@ -1,4 +1,4 @@
-use crate::http::method::{Method, MethodError};
+use super::{Method, MethodError};
 use super::QueryString;
 use std::convert::TryFrom;
 use std::error::Error;
