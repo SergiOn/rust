@@ -4,3 +4,4 @@ pub use request::Request;
 
 pub mod request;
 pub mod method;
+mod query_string;
