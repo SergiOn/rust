@@ -132,3 +132,12 @@ Fundamentals of the Rust Programming Language
 
 https://github.com/gavadinov/Learn-Rust-by-Building-Real-Applications
 
+
+## Rust Projects
+
+https://www.udemy.com/course/rust-projects
+
+#### About
+
+Build fast, safe, and concurrent applications with Rust
+
