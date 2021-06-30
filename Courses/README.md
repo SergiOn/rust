@@ -141,3 +141,7 @@ https://www.udemy.com/course/rust-projects
 
 Build fast, safe, and concurrent applications with Rust
 
+#### Links
+
+https://github.com/PacktPublishing/Rust-Projects
+
