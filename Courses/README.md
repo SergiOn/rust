@@ -145,3 +145,16 @@ Build fast, safe, and concurrent applications with Rust
 
 https://github.com/PacktPublishing/Rust-Projects
 
+
+## Rust Programming Recipes
+
+https://www.udemy.com/course/rust-programming-recipes
+
+#### About
+
+Take your apps to the next level with Rust
+
+#### Links
+
+https://github.com/PacktPublishing/Rust-Programming-Recipies
+
